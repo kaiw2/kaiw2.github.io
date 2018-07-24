@@ -8,12 +8,13 @@ body {
 
 .header {
     height : 300px;
+    position: absolute;
 }
 
 .avatar {
     width: 220px;
     height: 220px;
-    
+    position: absolute;
     bottom: -100px;
     left: 50px;
 }
