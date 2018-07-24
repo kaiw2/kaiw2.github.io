@@ -4,6 +4,10 @@ body {
     background: linear-gradient(rgb(51,204,255) 30%, rgb(3, 17, 61) 40%);
 }
 
+img1 {
+    float: left;
+}
+
 h1 {
     background-color:rgb(51,204,255);
     font-family:"Brush Script Mt";
