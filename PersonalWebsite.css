@@ -9,9 +9,9 @@ img1 {
 }
 
 h1 {
-    background-color:rgb(51,204,255);
     font-family:"Brush Script Mt";
-    text-align:center;font-size:400%;
+    text-align:left;font-size:400%;
+    float: right;
 }
 p {
     background-color:#99e6ff;
