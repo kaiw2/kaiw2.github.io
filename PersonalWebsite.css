@@ -2,9 +2,23 @@
 
 body {
     background: linear-gradient(rgb(51,204,255) 30%, rgb(3, 17, 61) 40%);
+    margin: 0;
+    padding: 0;
 }
 
-img1 {
+.header {
+    height : 300px;
+}
+
+.avatar {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    bottom: -100px;
+    left: 50px;
+}
+
+img {
     float: left;
     padding-top: 200px;
     padding-right: 10px;
