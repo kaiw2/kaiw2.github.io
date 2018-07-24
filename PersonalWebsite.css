@@ -1,4 +1,9 @@
-<style>
+
+
+#grad {
+    background: linear-gradient(rgb(51,204,255), rgb(3, 17, 61));
+}
+
 h1 {
     background-color:rgb(51,204,255);
     font-family:"Brush Script Mt";
@@ -29,5 +34,6 @@ h4 {
         ;font-family:"Brush Script Mt";
     text-align:center;font-size:150%;
 }
-div {text-align:center;}
-</style>
+div {
+    text-align:center;
+}
