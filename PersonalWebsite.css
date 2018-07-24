@@ -14,33 +14,39 @@ img1 {
 
 h1 {
     font-family:"Brush Script Mt";
-    text-align:left;font-size:400%;
-    float: right;
+    text-align:left;
+    font-size:400%;
+    display: inline;
 }
 p {
     background-color:#99e6ff;
-    font-family:arial;text-align:center;
+    font-family:arial;
+    text-align:center;
     font-size: 100%;
 }
 h2 {
     background-color:rgb(51,204,255);
     font-family:"Brush Script Mt";
-    text-align:center;font-size:250%;
+    text-align:center;
+    font-size:250%;
 }
 a {
     background-color:rgb(255,255,255);
     font-family:arial;text-align:center;
-    font-size: 150%; color:rgb(51,204,255);
+    font-size: 150%; 
+    color:rgb(51,204,255);
 }
 h3 {
     background-color:rgb(51,204,255);
     font-family:"Brush Script Mt"; 
-    text-align:center;font-size:250%;
+    text-align:center;
+    font-size:250%;
 }
 h4 {
     background-color:rgb(51,204,255)
         ;font-family:"Brush Script Mt";
-    text-align:center;font-size:150%;
+    text-align:center;
+    font-size:150%;
 }
 div {
     text-align:center;
