@@ -8,7 +8,12 @@ body {
 
 .header {
     height : 300px;
-    position: absolute;
+    width: 600px;
+    position: relative;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    border: 0px;
 }
 
 .avatar {
@@ -19,11 +24,42 @@ body {
     left: 50px;
 }
 
+
+h1.name {
+    font-family:"Brush Script Mt";
+    text-align:left;
+    font-size:400%;
+    position: absolute;
+    padding: 0px;
+    bottom: -40px;
+    right: 0px;
+}
+
+p.bio {
+    background-color:#99e6ff;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 265px;
+    padding-right: 15px;
+    position: static;
+    margin-left: 100px;
+    margin-right: 400px;
+    margin-top: 0px;
+    top: 0px;
+    font-family: arial;
+    text-align: left;
+    font-size: 150%;
+}
+
+.gallery {
+    
+}
+
 img {
     float: left;
     padding-top: 200px;
     padding-right: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     padding-left: 80px;
 }
 
@@ -35,8 +71,8 @@ h1 {
 }
 p {
     background-color:#99e6ff;
-    font-family:arial;
-    text-align:center;
+    font-family: arial;
+    text-align: center;
     font-size: 100%;
 }
 h2 {
