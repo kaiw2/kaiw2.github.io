@@ -98,8 +98,25 @@ p {
     background-color:#99e6ff;
     
     font-family: Arial, sans-serif;
-    text-align: center;
+    text-align: left;
     font-size: 100%;
+    
+    margin-left: 100px;
+    margin-right: 400px;
+    margin-top: 0px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: #cecece;
+    
+    max-width: 720px;
+    
+    overflow: hidden;
 }
 
 h2, h3 {
@@ -113,36 +130,48 @@ h2, h3 {
     margin-left: 100px;
     margin-right: 400px;
     margin-top: 50px;
+    margin-bottom: 0px;
 
-    padding-left: 265px;
+    /*padding-left: 265px;*/
+    padding-left: 30px;
     
-    max-width: 515px;
+    max-width: 750px;
 }
 
-a {
-    background-color: rgb(255,255,255);
+a:link {
     
     font-family: arial;
     text-align: center;
     font-size: 150%; 
     color: rgb(51,204,255);
+    
+    padding: 14px 25px;
+    
+    text-decoration: none;
+    background-image: url("PictureOfMe.jpeg");
+}
+
+a:hover {
+    
 }
 
 h4 {
     background-color :rgb(51,204,255);
     
     font-family: "Brush Script Mt", "Arial Black",  Gadget, sans-serif;
-    text-align: center;
+    text-align: left;
     font-size: 150%;
     color: white;
     
     margin-left: 100px;
     margin-right: 400px;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 0px;
 
-    padding-left: 265px;
+    /*padding-left: 265px;*/
+    padding-left: 30px;
     
-    max-width: 515px;
+    max-width: 750px;
 }
 
 div {
