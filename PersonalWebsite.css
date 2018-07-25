@@ -1,7 +1,7 @@
 /* CSS StyleSheet: "PersonalWebsite.css" */
 
 body {
-    background: linear-gradient(rgb(51,204,255) 30%, rgb(3, 17, 61) 40%);
+    background: linear-gradient(rgb(51,204,255) 40%, rgb(3, 17, 61) 50%);
     background-repeat: no-repeat;
     background-attachment:local;
     background-size: contain, cover;
@@ -104,6 +104,7 @@ p {
     margin-left: 100px;
     margin-right: 400px;
     margin-top: 0px;
+    margin-bottom: 50px;
 
     padding-left: 30px;
     padding-right: 30px;
@@ -113,6 +114,8 @@ p {
     border-top-style: solid;
     border-top-width: 3px;
     border-top-color: #cecece;
+    
+
     
     max-width: 720px;
     
@@ -140,24 +143,41 @@ h2, h3 {
 
 a:link {
     
+    height: 50px;
+    width: 120px;
+    line-height: 50px;
     font-family: Arial;
-    text-align: left;
+    text-align: center;
     font-size: 150%; 
-    color: rgb(51,204,255);
+    color: white;
     
-    margin-left: 100px;
+    margin-left: 400px;
     margin-right: 400px;
-    margin-top: 50px;
-    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     
-    padding: 14px 25px;
+    padding: 30px;
+    
+    max-width: 750px;
+    
+    display: block;
     
     text-decoration: none;
-    background-image: url("PictureOfMe.jpeg");
+    background-image: url('Button-NoHover-NEW.png');
+    background-repeat: no-repeat;
+    background-size: 180px 110px;
 }
 
 a:hover {
-    
+    text-decoration: none;
+    background-image: url('Button-Hover.png');
+    background-repeat: no-repeat;
+    background-size: 180px 110px;
+}
+
+video {
+    width: 500px;
+    height: 500px;
 }
 
 h4 {
@@ -177,8 +197,4 @@ h4 {
     padding-left: 30px;
     
     max-width: 750px;
-}
-
-div {
-    text-align: center;
 }
