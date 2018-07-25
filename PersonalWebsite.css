@@ -2,8 +2,12 @@
 
 body {
     background: linear-gradient(rgb(51,204,255) 30%, rgb(3, 17, 61) 40%);
+    background-repeat: no-repeat;
+    background-attachment:local;
     margin: 0;
     padding: 0;
+    height:100%;
+    background-size: contain, cover;
 }
 
 .header {
