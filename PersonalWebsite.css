@@ -140,10 +140,15 @@ h2, h3 {
 
 a:link {
     
-    font-family: arial;
-    text-align: center;
+    font-family: Arial;
+    text-align: left;
     font-size: 150%; 
     color: rgb(51,204,255);
+    
+    margin-left: 100px;
+    margin-right: 400px;
+    margin-top: 50px;
+    margin-bottom: 0px;
     
     padding: 14px 25px;
     
