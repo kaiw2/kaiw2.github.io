@@ -54,6 +54,7 @@ p.bio {
     text-align: left;
     font-size: 150%;
     max-width: 500px;
+    overflow: hidden;
 }
 
 .gallery {
