@@ -178,6 +178,13 @@ a:hover {
 video {
     width: 500px;
     height: 500px;
+    
+    margin-left: 230px;
+    margin-right: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    display: block;
 }
 
 h4 {
