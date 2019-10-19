@@ -1,0 +1,138 @@
+/* CSS StyleSheet: "PersonalWebsite3.css" */
+
+
+body {
+    background-color: #EFEFEF;
+    margin: 0;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: .6rem solid #00939E;
+    width: 15rem;
+    float: left;
+    box-shadow: 0rem .3rem .4rem grey;
+    margin-right: 2rem;
+    
+    position: fixed;
+    
+}
+
+h1 {
+    padding-left: 20rem;
+    padding-top: 2rem;
+    padding-bottom: 3.3rem;
+    margin: 0;
+
+    
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 300;
+    font-size: 3.5rem;
+    color: #EFEFEF;
+    
+    background-color: #00939E
+}
+
+nav {
+    padding-left: 18rem;
+    
+}
+
+nav a {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+    border: .6rem solid #00939E;
+    margin: .5rem;
+    
+    text-decoration: none;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    
+    color: #00939E;
+    background-color: #EFEFEF;
+    background-clip: padding-box;
+    box-shadow: 0rem .3rem .4rem grey;
+    
+}
+
+.info{
+    margin-left: 45%;
+    margin-top: 10%;
+    
+        
+}
+
+.info div {
+    border: .2rem solid #00939E;
+    border-radius: 1rem;
+    
+    margin-top: 8%;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+    
+
+}
+
+p {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    
+}
+
+.experience ul {
+    list-style-type: none;
+}
+
+.hidden {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: .9rem;
+    
+    padding-left: 1rem;
+}
+
+.date p::after {
+    content: '';
+    box-shadow: 0 0 0 .2rem #00939E;
+    border-radius: 50%;
+    height: .45rem;
+    width: .45rem;
+    display: inline-block; 
+    position: relative;
+    
+    left: -17rem;
+    bottom: -1.4rem;
+    
+    
+}
+
+.date p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    
+    margin-bottom: .3rem;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 2rem;  
+}
