@@ -1,5 +1,11 @@
 /* CSS StyleSheet: "PersonalWebsite3.css" */
+* {
+  box-sizing: border-box;
+}
 
+html {
+    overflow-x: hidden;
+}
 
 body {
     background-color: #EFEFEF;
@@ -8,70 +14,125 @@ body {
 
 .avatar {
     border-radius: 50%;
-    border: .6rem solid #00939E;
-    width: 15rem;
-    float: left;
-    box-shadow: 0rem .3rem .4rem grey;
-    margin-right: 2rem;
+    /*border: .6rem solid #41AEB6;*/
+    border: 0rem solid transparent;
+    width: 17%;
+    box-shadow: 0rem .5rem .5rem #005667;
     
-    position: fixed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
     
+    transition: box-shadow 1s;
 }
 
-h1 {
-    padding-left: 20rem;
-    padding-top: 2rem;
-    padding-bottom: 3.3rem;
+.avatar:hover {
+    box-shadow: 0rem .9rem .9rem #005667;
+}
+.header {
+    
     margin: 0;
+    height: 100vh;
+    width: 100vw;
+    
+    background: rgb(0,86,103);
+    background: linear-gradient(58deg, rgba(0,86,103,1) 0%, rgba(53,172,181,1) 50%, rgba(239,239,239,1) 100%);
+    
+    
+    padding-top: 20vh;
 
+}
+h1 {
+  
+    /*padding-top: 20%;
+    /padding-bottom: 3.3rem;*/
+    margin: 0;
     
     font-family: 'Roboto', sans-serif;;
     font-weight: 300;
-    font-size: 3.5rem;
-    color: #EFEFEF;
+    font-size: 8vw;
     
-    background-color: #00939E
+    color: #EFEFEF;
+    text-align: center;
+    
+    padding-top: 5vh;
+    /*background-color: #41AEB6*/
+    
 }
 
-nav {
-    padding-left: 18rem;
-    
+.top-nav {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 50vw;
+  transform: translate(-50%, 150%);
 }
 
 nav a {
+    /*
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
     border-radius: 1rem;
-    border: .6rem solid #00939E;
-    margin: .5rem;
+    border: .15rem solid #00939E;
+    margin: 1vw;
+    margin-top: -2vh;
     
     text-decoration: none;
     
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 1.1rem;
+    font-size: 1.3vw;
     
     color: #00939E;
     background-color: #EFEFEF;
     background-clip: padding-box;
-    box-shadow: 0rem .3rem .4rem grey;
+    /*box-shadow: 0rem .3rem .4rem grey; */
+    
+    text-decoration: none;
+    margin: 1vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.4vw;
+    color: #EFEFEF;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: box-shadow 1s;
+    border-radius: 1rem;
+    
+}
+
+nav a:hover {
+    
+    box-shadow: 0rem .5rem .5rem #005667;
     
 }
 
 .info{
-    margin-left: 45%;
-    margin-top: 10%;
-    
-        
+    margin-top: 5%;
 }
 
+
+
 .info div {
+    margin-top: 8%; 
+}
+
+.trans-light-bkg {
     border: .2rem solid #00939E;
     border-radius: 1rem;
-    
-    margin-top: 8%;
+    transition: box-shadow 1s;
+    margin-left: 10vw;
+    margin-right: 10vw;   
+}
+
+.trans-light-bkg:hover {
+    box-shadow: 0rem .5rem .5rem #005667;
 }
 
 h2 {
@@ -82,23 +143,48 @@ h2 {
     padding-left: 2rem;
     padding-right: 2rem;
     
-    
+    text-align: center;
 
 }
 
 p {
-    padding-left: 2rem;
+    padding-left: 5vw;
     padding-right: 2rem;
+    padding-bottom: 2vh;
     
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 1rem;
+    text-align: center;
     
 }
 
-.experience ul {
-    list-style-type: none;
+.portfolio {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    align-content: space-between;
+    justify-content: space-evenly;
 }
+
+.portfolio img {
+    margin: 1%;
+    width: 40vw;
+}
+
+.portfolio video {
+    margin: 1%;
+    width: 40vw;
+}
+
+
+
+.bkg-dark {
+    background-color: #DADADA;
+}
+/* FOR LATER PROJECT
 
 .hidden {
     font-family: 'Roboto', sans-serif;
@@ -106,6 +192,10 @@ p {
     font-size: .9rem;
     
     padding-left: 1rem;
+}
+
+.experience ul {
+    list-style-type: none;
 }
 
 .date p::after {
@@ -123,6 +213,7 @@ p {
     
 }
 
+
 .date p {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -130,9 +221,15 @@ p {
     
     margin-bottom: .3rem;
 }
+*/
 
 h3 {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-size: 2rem;  
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+    
+    margin-bottom: 0;
+    
+    padding-top: 2vh;
 }
