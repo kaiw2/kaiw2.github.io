@@ -61,6 +61,7 @@ h1 {
 nav a {
   border-radius: 1rem; 
   color: #EFEFEF;
+  cursor: pointer;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
@@ -174,33 +175,160 @@ h3 {
 /* Smaller Phone Viewpoints */
 @media only screen and (min-width: 320px) {
     
+    
+    .avatar {
+      width: 15rem;  
+    }
+
+    .avatar:on-click {
+        box-shadow: 0rem .9rem .9rem #005667;
+    }
+    
+    h1 {
+        font-size: 5rem;
+    }
+
+    .portfolio {
+        column-count: 1;
+    }
+    
+    .bkg-light:on-click {
+        box-shadow: 0rem .5rem .5rem #005667;
+    }
+    
+    .contact-info {
+        font-size: .9rem;
+    }
 }
 
 /* For small devices and most phones */
 @media only screen and (min-width: 480px) {
+    .avatar {
+      width: 20rem;  
+    }
+
+    .avatar:on-click {
+        box-shadow: 0rem .9rem .9rem #005667;
+    }
     
+    h1 {
+        font-size: 5rem;
+    }
+
+    .portfolio {
+        column-count: 1;
+    }
+    
+    .bkg-light:on-click {
+        box-shadow: 0rem .5rem .5rem #005667;
+    }
+    
+    .contact-info {
+        font-size: 1.1rem;
+    }
 }
 
 /* For Tablets and the like */
 @media only screen and (min-width: 768px) {
+    .avatar {
+      width: 20rem;  
+    }
+
+    .avatar:on-click {
+        box-shadow: 0rem .9rem .9rem #005667;
+    }
     
+    h1 {
+        font-size: 5rem;
+    }
+
+    .portfolio {
+        column-count: 2;
+    }
+    
+    .bkg-light:on-click {
+        box-shadow: 0rem .5rem .5rem #005667;
+    }
+    
+    .contact-info {
+        font-size: 1.1rem;
+    }
 }
 
 /* For Smaller Desktop */
 @media only screen and (min-width: 992px) {
-   
+   .avatar {
+      width: 25rem;  
+    }
+    
+    h1 {
+        font-size: 7rem;
+    }
+
+    .portfolio {
+        column-count: 2;
+    }
+    
+    .contact-info {
+        font-size: 1.3rem;
+    }
 }
 
 /* For Large Devices and Wide Screens */
 @media only screen and (min-width: 1200px) {
+    .avatar {
+      width: 25rem;  
+    }
     
+    h1 {
+        font-size: 7rem;
+    }
+
+    .portfolio {
+        column-count: 4;
+    }
+    
+    
+    .contact-info {
+        font-size: 1.4rem;
+    }
 }
 
 /* For iMacs and Other Large Monitors */
 @media only screen and (min-width: 2000px) {
+    .avatar {
+      width: 27rem;  
+    }
     
+    h1 {
+        font-size: 8rem;
+    }
+
+    .portfolio {
+        column-count: 4;
+    }
+    
+    
+    .contact-info {
+        font-size: 1.4rem;
+    }
 }
 
 @media only screen and (min-width: 2500px) {
-   
+       .avatar {
+      width: 29rem;  
+    }
+    
+    h1 {
+        font-size: 9rem;
+    }
+
+    .portfolio {
+        column-count: 4;
+    }
+    
+    
+    .contact-info {
+        font-size: 1.4rem;
+    }
 }
