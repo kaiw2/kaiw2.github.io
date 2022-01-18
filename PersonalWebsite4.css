@@ -271,10 +271,21 @@ div.portfolio {
     }
     
     .top-nav {
-        background: #EFEFEF;
+        /*background: #EFEFEF;
         color: #005667;
-        list-style: none;
+        list-style: none; */
         
+        border-radius: 1rem; 
+        color: #EFEFEF;
+        cursor: pointer;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 1.4rem;
+        list-style: none;
+        margin: 1rem;
+        padding: 1rem;
+        text-decoration: none;
+        transition: box-shadow 1s;  
     }
     
     nav a {
@@ -353,7 +364,7 @@ div.portfolio {
   transition: box-shadow 1s;   
     }
 
-    nav a:hover {
+    .top-nav:hover {
         box-shadow: 0rem .5rem .5rem #005667;
     }
 
@@ -376,7 +387,7 @@ div.portfolio {
         font-size: 5rem;
     }
     
-    .top-nav {
+    nav a {
       align-items: center;
       display: flex;
       flex-direction: row;
@@ -388,7 +399,7 @@ div.portfolio {
     list-style: none;
     }
 
-    nav a {
+    .top-nav {
   border-radius: 1rem; 
   color: #EFEFEF;
   cursor: pointer;
@@ -401,7 +412,7 @@ div.portfolio {
   transition: box-shadow 1s;
 }
 
-nav a:hover {
+.top-nav:hover {
   box-shadow: 0rem .5rem .5rem #005667;
 }
 
