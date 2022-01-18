@@ -29,50 +29,12 @@ body {
 }
 
 .header {
-  background: rgb(0,86,103);
-  background: linear-gradient(58deg, rgba(0,86,103,1) 0%, rgba(53,172,181,1) 50%, rgba(239,239,239,1) 100%);
+  background: #00939E;
+  /*background: linear-gradient(58deg, rgba(0,86,103,1) 0%, rgba(53,172,181,1) 50%, rgba(239,239,239,1) 100%); */
   height: 100vh;
   margin: 0;
   padding-top: 20vh; 
   width: 100vw;
-}
-
-h1 {
-  color: #EFEFEF;
-  font-family: 'Roboto', sans-serif;;
-  font-weight: 300;
-  font-size: 6rem;
-  margin: 0;
-  padding-top: 4vh;
-  text-align: center;
-}
-
-.top-nav {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  left: 50vw;
-  position: absolute;
-  transform: translate(-50%, 150%); 
-}
-
-nav a {
-  border-radius: 1rem; 
-  color: #EFEFEF;
-  cursor: pointer;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 1.4rem;
-  margin: 1rem;
-  padding: 1rem;
-  text-decoration: none;
-  transition: box-shadow 1s;
-}
-
-nav a:hover {
-  box-shadow: 0rem .5rem .5rem #005667;
 }
 
 .info {
@@ -80,7 +42,7 @@ nav a:hover {
 }
 
 .info div {
-  margin-top: 8%; 
+  margin-top: 4%; 
 }
 
 .bkg-light {
@@ -99,31 +61,104 @@ nav a:hover {
   padding-top: .1vh;
 }
 
+.header p {
+  color: #EFEFEF;
+  font-family: 'Roboto', sans-serif;;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* My Name */
+h1 {
+  color: #EFEFEF;
+  font-family: 'Roboto', sans-serif;;
+  font-weight: 300;
+  font-size: 6rem;
+  margin: 0;
+  padding-top: 4vh;
+  text-align: center;
+}
+
+/* Section Titles */
 h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding: .5rem;
   text-align: center;
+  margin-bottom: 0;
 }
+
+/* Sub Section Titles */
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  padding-top: 2vh;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+}
+
+/* Job Titles */
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding: 0 2vw 0vh;
+  text-align: left;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+/*
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: 1rem 0 0;
+  padding: .5rem;
+  text-align: center; 
+}
+*/
 
 p {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.2rem; 
   line-height: 2rem;
   margin-bottom: 0;
-  padding: 0 1.5vw 4vh;
-  text-align: center;
+  padding: 0 2vw 0vh;
+  text-align: left;
+}
+
+.theme-nav {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-align: left;
+  padding: 0 3.5vw 0vh;
+  line-height: 1.9rem;
+  margin-top: 0;
 }
 
 /* Portfolio */
+
+.portfolio-h2 {
+    margin-bottom: 0;
+}
+
+div.portfolio {
+    margin-top: 3%;
+    padding-bottom: 3%;
+}
 
 .underline {
   color: #00939E;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   padding: 0;
+  text-align: center;
+  margin-top: 0;
 }
 
 .portfolio {
@@ -146,42 +181,29 @@ p {
 
 /* End Portfolio */
 
-/* HPA */
+/* Experience */
 
-h5 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 1.5rem;
-  margin: 1rem 0 0;
-  padding: .5rem;
-  text-align: center; 
-}
 
-/* End HPA */
+
+/* End Experience */
 
 /* Contact */
 
-h3 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 2rem;
-  padding-top: 2vh;
-  margin-bottom: 0;
-  text-align: center; 
+.contact-info {
+  text-align: center;
+  padding-bottom: 2%;
 }
 
 /* End Contact */
 
+
+/* ============RESPONSIVE=============== */
+
 /* Smaller Phone Viewpoints */
 @media only screen and (min-width: 320px) {
     
-    
     .avatar {
       width: 15rem;  
-    }
-
-    .avatar:on-click {
-        box-shadow: 0rem .9rem .9rem #005667;
     }
     
     h1 {
@@ -190,10 +212,6 @@ h3 {
 
     .portfolio {
         column-count: 1;
-    }
-    
-    .bkg-light:on-click {
-        box-shadow: 0rem .5rem .5rem #005667;
     }
     
     .contact-info {
@@ -206,10 +224,6 @@ h3 {
     .avatar {
       width: 20rem;  
     }
-
-    .avatar:on-click {
-        box-shadow: 0rem .9rem .9rem #005667;
-    }
     
     h1 {
         font-size: 5rem;
@@ -217,10 +231,6 @@ h3 {
 
     .portfolio {
         column-count: 1;
-    }
-    
-    .bkg-light:on-click {
-        box-shadow: 0rem .5rem .5rem #005667;
     }
     
     .contact-info {
@@ -233,21 +243,15 @@ h3 {
     .avatar {
       width: 20rem;  
     }
-
-    .avatar:on-click {
-        box-shadow: 0rem .9rem .9rem #005667;
-    }
     
     h1 {
         font-size: 5rem;
     }
+    
+
 
     .portfolio {
         column-count: 2;
-    }
-    
-    .bkg-light:on-click {
-        box-shadow: 0rem .5rem .5rem #005667;
     }
     
     .contact-info {
@@ -255,15 +259,33 @@ h3 {
     }
 }
 
-/* For Smaller Desktop */
-@media only screen and (min-width: 992px) {
+/* For Smaller Desktop  may need new nav here*/
+/* Was previously set to 992px but nav bar wraps at 1024 */
+@media only screen and (min-width: 1024px) {
    .avatar {
-      width: 25rem;  
+      width: 20rem;  
     }
     
     h1 {
-        font-size: 7rem;
+        font-size: 5rem;
     }
+    
+    .top-nav {
+        background: #EFEFEF;
+        color: #005667;
+        
+        
+    }
+    
+    nav a {
+        color: #005667;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        position:fixed;
+    }
+    
+    
 
     .portfolio {
         column-count: 2;
@@ -277,11 +299,11 @@ h3 {
 /* For Large Devices and Wide Screens */
 @media only screen and (min-width: 1200px) {
     .avatar {
-      width: 25rem;  
+      width: 20rem;  
     }
     
     h1 {
-        font-size: 7rem;
+        font-size: 5rem;
     }
 
     .portfolio {
@@ -297,11 +319,44 @@ h3 {
 /* For iMacs and Other Large Monitors */
 @media only screen and (min-width: 2000px) {
     .avatar {
-      width: 27rem;  
+      width: 20rem;  
     }
     
     h1 {
-        font-size: 8rem;
+        font-size: 5rem;
+    }
+    
+    nav {
+        align-items: center;
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    left: 50vw;
+        
+    position: absolute;
+    transform: translate(-50%, 150%); 
+        
+    }
+
+    .top-nav {
+  border-radius: 1rem; 
+  color: #EFEFEF;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+        list-style: none;
+  margin: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+  transition: box-shadow 1s;
+        
+        
+    }
+
+    nav a:hover {
+        box-shadow: 0rem .5rem .5rem #005667;
     }
 
     .portfolio {
@@ -316,12 +371,40 @@ h3 {
 
 @media only screen and (min-width: 2500px) {
     .avatar {
-      width: 29rem;  
+      width: 20rem;  
     }
     
     h1 {
-        font-size: 9rem;
+        font-size: 5rem;
     }
+    
+    .top-nav {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    left: 50vw;
+    position: absolute;
+    transform: translate(-50%, 150%); 
+    }
+
+    nav a {
+  border-radius: 1rem; 
+  color: #EFEFEF;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+  transition: box-shadow 1s;
+}
+
+nav a:hover {
+  box-shadow: 0rem .5rem .5rem #005667;
+}
 
     .portfolio {
         column-count: 4;

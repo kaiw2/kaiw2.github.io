@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
-//This code is from w3schools.com - I understand it fully
+//This code is from w3schools.com - I understand it fully -- smooth scrolling function
 $(document).ready(function(){
   $("a").on('click', function(event) {
     if (this.hash !== "") {
@@ -27,36 +27,37 @@ $(document).ready(function(){
 </script>
 </head>
 <body>
-  <div class="hamburger">
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
-  </div>
-  <div class="top-nav">
     <nav>
-      <div class="a-list">
-        <a href="#about">About</a>   
-        <a href="#portfolio">Portfolio</a>
-        <a href="#hpa">HPA</a>
-        <a href="#contact">Contact</a>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
       </div>
+      <ul class="top-nav">
+          <li><a href="#about">About</a></li>  
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
-  </div>
     
   <div class="header">
-    <img src="PictureOfMe.jpg" alt="Picture of Kai Wiest" class="avatar">
+    <img src="kaiwiestprofessionalheadshot%20(1)%20(1).png" alt="Picture of Kai Wiest" class="avatar">
     <h1>Kai Wiest</h1>
+    <p>An aspiring Web Developer/Designer, UI/UX Designer, and Artist</p>
   </div>
 
   <div class="info">
-    <div id="about" class="bkg-light">
       <h2>About Me</h2>
-      <p>Bachelor of Science in Computer Science & Anthropology | Graduation Date: May 2021</p>
-      <p>Minor in Art + Design</p>
-      <p>An aspiring Web Developer and Artist</p>
+    <div id="about" class="bkg-light">
+      <h3>Education</h3>
+      <p>My major and minor combination at the University of Illinois has allowed me to explore creative fields such as web development and UI/UX design. It has become a passion of mine to learn how to make graphics and interfaces with accessibility in mind, especially as technology is connecting more and more people.</p>
+      <p>As such, I've taken the liberty to take courses at my university and enroll in online supplementary courses that are related to my major and concentration. I hope to be able to put my creativity and skills to use at a company with the same end goal as me: an accessible product.</p>
+      <p>Major: Bachelor of Science in Computer Science & Anthropology (Graduation Date: Dec 2021)</p>
+      <p>Minor: Art + Design</p>
     </div>
     <div id="portfolio" class="bkg-dark">
-      <h2>Portfolio</h2>
+      <h2 class="portfolio-h2">Portfolio</h2>
       <p class="underline">_______________________</p>
       <div class="portfolio">
         <img src="Yule-Ball-2019---Facebook-Cover.png" alt="Yule Ball 2019 Facebook Cover Digital Watercolor Art">
@@ -78,16 +79,51 @@ $(document).ready(function(){
         <img src="black%20hermione%20illustration-01.png" alt="Black Hermione Granger Flat, Digital Illustration">
       </div>
     </div>
-    <div id="hpa" class="bkg-light">
-      <h2>Harry Potter Alliance</h2>
+      
+      <h2>Experience</h2>
+      <div id="experience" class="bkg-light">
+      <h3>ATLAS (Applied Technologies for Learning in the Arts & Sciences)</h3>
+          <p>By interning with the ATLAS Program, I could apply skills I learned in my courses to projects provided by faculty members at the university. Web accessibility, client relations, and team leadership were among some of the skills I had the opportunity to pick up as an intern. Two of my favorite projects I worked on as a Team Lead Web Developer were the <a href="https://illinoismaya.web.illinois.edu/">Illinois Maya Initiative</a> and the <a href="https://denmarkgroup.illinois.edu/">Denmark Group</a> websites.</p>      
+      <h4>Team Lead - Web Developer (August 2020 - December 2021)</h4>   
+      <ul class="theme-nav">
+          <li>Manage a new 5-person subgroup of ATLAS to aid in the redesigns of outdated Research Faculty websites, as well as create custom websites for University-affiliated groups using WordPress</li>
+          <li>Established web development skill 4-week courses and weekly technical seminars</li>
+          <li>Assist ATLAS program leaders by advising project timeframes, supporting new interns, and finalizing unfinished, web-related projects</li>
+      </ul>
+          
+      <h4>Web/Marketing Designer (June 2020 - August 2020)</h4>
+      <ul class="theme-nav">
+          <li>Remodeled the layout and appearance of the e-text for Engaging Youth for Positive Change (EYPC) with accessibility and usability in mind</li>
+          <li>Presented bi-weekly updates to a 6-person team and incorporated their feedback and vision</li>
+          <li>Improved the site navigation by restructuring menus and pages for the EYPC WordPress website, as well as produced its modern icons</li>
+      </ul>
+          
+      <h4>Website Content/Migration Specialist (January 2020 - May 2020)</h4>      
+      <ul class="theme-nav">
+          <li>Designed webpages on University of Illinois Center for East Asian and Pacific Studies based on changing client requirements and deadlines</li>
+          <li>Used in-house tools to migrate data over to newer website formats</li>
+          <li>Learned a new website content management framework called Drupal, utilizing the given tools to produce more creative design layouts</li>
+          <li>Engaged in digital accessibility training and updated website content to fit those requirements</li>
+          <li>Completed a detailed website maintenance guide for clients after the new website was launched</li>
+      </ul>
+    </div>
+      
+    <div class="bkg-light">
+      <h3>Harry Potter Alliance</h3>
       <p>The Harry Potter Alliance Club at the University of Illinois is just one chapter of a larger organization committed to raising money for and awareness of global, national, and local issues by using fan activism.</p>
-      <h5>My Position: Art Director</h5>
-      <p>I created flyers, Facebook Banners, and other artwork for club advertisements and activities.</p>
+      <h4>Art Director - Executive Board Position (May 2018 - May 2021)</h4>
+      <ul class="theme-nav">
+          <li>Design digital artwork and graphics for advertisement of club activities</li>  
+          <li>Coordinate with other organizations and University administration to manage events</li>
+          <li>Consult with club members to create artistic products such as flyers and Facebook banners</li>
+          <li>Prioritize goals and resolve conflicts during large fund-raising events</li>
+          <li>Direct volunteers to help with the decoration of ballrooms and green-spaces for carnivals</li>
+      </ul>
     </div>
   <footer>
     <div id="contact" class="bkg-dark">
-      <h3>Contact Me</h3>
-        <p class="contact-info">Email: kaiw2@illinois.edu | GitHub (For Website): https://github.com/kaiw2/kaiw2.github.io</p>
+      <h2>Contact Me</h2>
+        <p class="contact-info">Email: kaiwiest07@gmail.com | GitHub (For Website): https://github.com/kaiw2/kaiw2.github.io</p>
     </div>
   </footer>
   </div>
