@@ -273,7 +273,7 @@ div.portfolio {
     .top-nav {
         background: #EFEFEF;
         color: #005667;
-        
+        list-style: none;
         
     }
     
@@ -346,13 +346,11 @@ div.portfolio {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
-        list-style: none;
+  list-style: none;
   margin: 1rem;
   padding: 1rem;
   text-decoration: none;
-  transition: box-shadow 1s;
-        
-        
+  transition: box-shadow 1s;   
     }
 
     nav a:hover {
@@ -387,6 +385,7 @@ div.portfolio {
     left: 50vw;
     position: absolute;
     transform: translate(-50%, 150%); 
+    list-style: none;
     }
 
     nav a {
