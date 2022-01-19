@@ -291,6 +291,7 @@ div.portfolio {
         font-size: 5rem;
     }
     
+    /*
     .top-nav {
         background: #EFEFEF;
         color: #005667;
@@ -304,7 +305,8 @@ div.portfolio {
         width: 100%;
         flex-direction: column;
         position:fixed;
-    }  
+    } 
+    */
 
     .portfolio {
         column-count: 2;
